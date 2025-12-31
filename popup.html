@@ -8,18 +8,56 @@
       padding: 20px;
       font-family: Arial, sans-serif;
     }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      box-sizing: border-box;
+    }
     button {
-      padding: 10px 20px;
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
       background: #4CAF50;
       color: white;
       border: none;
       cursor: pointer;
     }
+    .error {
+      color: red;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .success {
+      color: green;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .hidden {
+      display: none;
+    }
   </style>
 </head>
 <body>
-  <h2>My Extension</h2>
-  <button id="actionBtn">Click Me</button>
+  <h2>StampNotes Plus</h2>
+  
+  <div id="loginForm">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button id="signUpBtn">Create Account</button>
+    <button id="signInBtn">Sign In</button>
+    <div id="message"></div>
+  </div>
+
+  <div id="userInfo" class="hidden">
+    <p>Logged in as: <span id="userEmail"></span></p>
+    <p>User #<span id="userNumber"></span></p>
+    <button id="signOutBtn">Sign Out</button>
+  </div>
+
+  <!-- Changed: Use local file instead of CDN -->
+  <script src="supabase.js"></script>
+  <script src="config.js"></script>
   <script src="popup.js"></script>
 </body>
 </html>

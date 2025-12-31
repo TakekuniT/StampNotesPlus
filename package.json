@@ -1,0 +1,9 @@
+{
+    "name": "stampnotes-plus",
+    "version": "1.0.0",
+    "description": "Create and save timestamps with custom notes on YouTube videos",
+    "type": "module",
+    "dependencies": {
+      "@supabase/supabase-js": "^2.39.0"
+    }
+  }

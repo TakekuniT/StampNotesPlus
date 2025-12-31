@@ -1,7 +1,7 @@
 # Config with secrets
 config.js
 
-# Node modules (if you add any)
+# Node modules
 node_modules/
 
 # OS files
