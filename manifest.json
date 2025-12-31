@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "StampNotes Plus",
+    "version": "1.0.0",
+    "description": "Create and save timestamps with custom notes on YouTube videos",
+    "permissions": [],
+    "action": {
+        "default_icon": {
+                "16": "images/StampNotesGrey.png",
+                "48": "images/StampNotesGrey.png",
+                "128": "images/StampNotesGrey.png"
+        },
+        "default_title": "StampNotes Plus",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "images/StampNotes.png",
+        "48": "images/StampNotes.png",
+        "128": "images/StampNotes.png"
+    }
+  }
