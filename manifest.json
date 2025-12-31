@@ -6,16 +6,16 @@
     "permissions": [],
     "action": {
         "default_icon": {
-                "16": "images/StampNotesGrey.png",
-                "48": "images/StampNotesGrey.png",
-                "128": "images/StampNotesGrey.png"
+                "16": "icons/StampNotesGrey.png",
+                "48": "icons/StampNotesGrey.png",
+                "128": "icons/StampNotesGrey.png"
         },
         "default_title": "StampNotes Plus",
         "default_popup": "popup.html"
     },
     "icons": {
-        "16": "images/StampNotes.png",
-        "48": "images/StampNotes.png",
-        "128": "images/StampNotes.png"
+        "16": "icons/StampNotes.png",
+        "48": "icons/StampNotes.png",
+        "128": "icons/StampNotes.png"
     }
   }
