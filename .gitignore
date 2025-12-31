@@ -1,0 +1,13 @@
+# Config with secrets
+config.js
+
+# Node modules (if you add any)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
