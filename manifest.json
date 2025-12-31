@@ -3,7 +3,8 @@
     "name": "StampNotes Plus",
     "version": "1.0.0",
     "description": "Create and save timestamps with custom notes on YouTube videos",
-    "permissions": [],
+    "permissions": ["storage"],
+    "host_permissions": ["https://*.supabase.co/*"],
     "action": {
         "default_icon": {
                 "16": "icons/StampNotesGrey.png",
